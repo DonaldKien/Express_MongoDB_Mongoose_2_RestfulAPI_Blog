@@ -1,10 +1,13 @@
 # Express_MongoDB_Mongoose_2_RestfulAPI_Blog
 
-Create
+CREATE
+
 ![](https://github.com/DonaldKien/Express_MongoDB_Mongoose_2_RestfulAPI_Blog/blob/master/gif/Create.gif)
 
-Read, Update
+READ, UPDATE
+
 ![](https://github.com/DonaldKien/Express_MongoDB_Mongoose_2_RestfulAPI_Blog/blob/master/gif/Read%20and%20Update.gif)
 
-Delete
+DELETE
+
 ![](https://github.com/DonaldKien/Express_MongoDB_Mongoose_2_RestfulAPI_Blog/blob/master/gif/Delete.gif)
