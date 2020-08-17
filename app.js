@@ -5,7 +5,7 @@ let express 		= require('express'),
 	expressSanitizer= require('express-sanitizer'),
 	methodOverride 	= require("method-override")
 
-mongoose.connect("mongodb://localhost/restful_blog_app_2", {
+mongoose.connect("mongodb+srv://project_1:abc123!@cluster0.mibfu.mongodb.net/restfulblog?retryWrites=true&w=majority", {
 	useNewUrlParser: true, useUnifiedTopology:true
 });
 
@@ -21,12 +21,6 @@ let Blog = mongoose.model("Blog", new mongoose.Schema({
 	body: String,
 	created: {type: Date, default: Date.now()}
 }));
-
-// Blog.create({
-// 	title	: "Penguin",
-// 	image	: "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F502b3c6a-ec20-11e8-8888-d940336e3709.jpg?crop=4346%2C2445%2C639%2C739",
-// 	body	: "bunch of cute penguins"
-// })
 
 app.get('/', (request, response) => {
 	response.redirect('/blog')
