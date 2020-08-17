@@ -107,7 +107,7 @@ app.delete("/blog/:id", (request, response) => {
 	})
 })
 
-app.listen(3010, () => {console.log("server connected")})
+app.listen(process.env.PORT || 3010, () => {console.log("server connected")})
 
 
 
